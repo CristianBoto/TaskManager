@@ -1,4 +1,14 @@
+# Entorno virtual
 .venv/
+
+# Archivos temporales de Python
 __pycache__/
+.pytest_cache/
+
+# Datos locales
 tasks.json
+
+# Credenciales y variables de entorno
 .env
+.env.*
+!.env.example
